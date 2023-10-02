@@ -29,6 +29,7 @@ li{
 a{
     text-decoration: none;
 }
+/*header*/
 .headerVid{
     position:absolute;
     z-index: -1;
@@ -51,6 +52,7 @@ h1{
     margin: 10% 0;
     text-shadow: 7px 6px 15px #242F40;
 }
+/*navigation bar*/
 nav{
     position: sticky;
     top: 0;
@@ -72,6 +74,8 @@ nav{
 .navItem>a:hover{
     animation: navigation ease-out 0.2s forwards;
 }
+/*main*/
+/*card*/
 .card{
     display: flex;
     background: #e5e5e5;
@@ -107,4 +111,30 @@ h2{
     border-bottom-right-radius: 30px;
 
     height: 100%;
+}
+hr{
+    margin: 20px;
+}
+/*footer*/
+footer{
+    margin: 20px;
+}
+footer>p{
+    font-size: 14px;
+}
+.socialM{
+    display: flex;
+    justify-content: space-around;
+}
+.socialM>li,.socialM>li>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #CCA43B;
+.
+}
+.icon{
+    width: 20px;
+    margin: 10px;
+
 }
